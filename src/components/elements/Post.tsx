@@ -118,7 +118,7 @@ const Post = (props:any) => {
                 <div className = "flex flex-col">
                   <label className = "font-bold"> Post's Image </label>
                   <img alt = "gambar" src = {imagePreview} />
-                  <input className = "my-4" type = "file" accept="image/*" onChange = {handleImageUpload}/>
+                  <input className = "my-4" type = "file" accept="image/jpeg, image/png" onChange = {handleImageUpload}/>
                 </div>
                 <div className = "flex flex-col">
                   <label className = "font-bold"> Post's Category </label>
